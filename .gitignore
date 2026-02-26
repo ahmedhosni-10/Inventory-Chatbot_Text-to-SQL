@@ -1,0 +1,21 @@
+```text
+# --- Security ---
+# This hides your API keys and secrets [cite: 18]
+.env
+
+# --- Python ---
+# Excludes temporary compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Database ---
+# Excludes local SQLite database files so they don't overwrite others' data
+*.db
+*.sqlite3
+
+# --- Environments ---
+# Excludes virtual environments
+venv/
+.venv/
+env/
